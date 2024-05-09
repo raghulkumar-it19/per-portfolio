@@ -1,0 +1,86 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 100px;
+}
+
+.contact__container{
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+    position: relative;
+   background: black;
+}
+
+.contact__container > p{
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+
+}
+.contact__container > p > span{
+    color: #f64c08;
+}
+
+.contact__icons > a > button > span > .MuiSvgIcon-root{
+    color: white;
+    font-size: 30px;
+}
+
+.contact__icons > a > button{
+    color: white !important;
+}
+
+.contact__container::before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    /* background: #fff; */
+    z-index: -1;
+}
+
+.contact__container::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    /* background: #fff; */
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.contact__container::after,.contact__container::before{
+    background: linear-gradient(235deg, #ff6702, #09102b, #06faee);
+    /* background: linear-gradient(235deg, #f76300, #060c21, #00bcd4); */
+}
+
+@media only screen and (max-width: 768px){
+    .contact{
+        margin: 50px 0;
+    }
+
+    .contact__container{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 5px;
+        background: black;
+    }
+
+    .contact__container::before,.contact__container::after{
+        background: linear-gradient(235deg, #ff6702, #09102b, #06faee);
+    }
+}

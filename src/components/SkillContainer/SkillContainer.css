@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+.skillContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 0;
+}
+
+.skillContainer__text{
+    color: white;
+    flex: 0.6;
+    text-align: left;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.skillContainer__text > h2 {
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif ;
+    font-weight: 600;
+}
+
+.skillContainer__image{
+    flex: 0.4;
+    text-align: center;
+    margin-right: 100px;
+}
+
+.skillContainer__image > img{
+    width: 600px;
+    border-radius: 3px;
+    object-fit: contain;
+}
+
+.skillContainer__skillset > h5 {
+    font-family: "Montserrat",sans-serif;
+    font-weight: 400;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.skillContainer__slider > .MuiLinearProgress-colorPrimary{
+    background-color: rgb(250, 247, 247);
+}
+
+.skillContainer__slider1 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(245, 40, 4);
+}
+.skillContainer__slider2 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(233, 10, 114);
+}
+.skillContainer__slider3 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(13, 218, 13);
+}
+.skillContainer__slider4 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(228, 213,0);
+}
+.skillContainer__slider5 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(44, 8, 141);
+}
+.skillContainer__slider6 > div > .MuiLinearProgress-barColorPrimary{
+    background-color: rgb(14, 145, 221);
+}
+
+@media only screen and (max-width: 768px){
+    .skillContainer{
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .skillContainer__text,.skillContainer__image{
+        flex: 1;
+        text-align: center;
+        margin: 0;
+    }
+    .skillContainer__image{
+        margin-top: 20px;
+    }
+    .skillContainer__text > h2{
+        font-size: 24px;
+    }
+    .skillContainer__slider > .MuiLinearProgress-root{
+        width: 100%;
+    }
+}

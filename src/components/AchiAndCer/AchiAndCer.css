@@ -1,0 +1,90 @@
+.achievements__and__certifications__container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.section__toggle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section__toggle > button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #fff;
+    position: relative;
+}
+
+.section__toggle > button.active::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #f64c08;
+}
+
+.section__toggle > button.active{
+    color: #f64c08;
+}
+
+.achievements__details, .certifications__details{
+    display: block;
+    border: none;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.achievement__entry, .certification__entry, .achievement__entry p, .certification__entry p,.certification__entry a{
+    color: #fff;
+}
+
+.achievement__entry, .certification__entry{
+    border: 3px dotted #f64c08;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    transform: scale(1);
+}
+
+.achievement__entry:hover, .achievement__entry.active{
+    background-color: #f64c08;
+    border: 3px dotted #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.certification__entry:hover, .certification__entry.active{
+    background-color: #f64c08;
+    border: 3px dotted #fff;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.section__toggle > button > h1
+{
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 768px){
+    .section__toggle{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .section__toggle button{
+        margin: 10px 0;
+    }
+
+    .section__toggle button.active::after{
+        bottom: -3px;
+    }
+}

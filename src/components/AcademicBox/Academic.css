@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap');
+
+.academic{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+
+.academic > p{
+    font-family: "Josefin Sans", sans-serif !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align:center
+}
+
+.academic > p1{
+    text-align: justify;
+    letter-spacing: 1px;
+    padding-top: 1px;
+}
+
+@media only screen and (max-width: 768px) {
+    .academic {
+        width: 90%; 
+        height: auto;
+        margin-left: 20px;
+        margin-right: 11.5px;
+    }
+}
