@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/per-portfolio/static/css/main.05031472.css",
+    "main.js": "/per-portfolio/static/js/main.9af8bc23.js",
+    "static/js/453.41811d64.chunk.js": "/per-portfolio/static/js/453.41811d64.chunk.js",
+    "static/media/Raghulkumar_img.JPG": "/per-portfolio/static/media/Raghulkumar_img.d05f5d6e3bd3e8a1fedb.JPG",
+    "static/media/exp.jpeg": "/per-portfolio/static/media/exp.abe13ce9fb204f3debc7.jpeg",
+    "static/media/skill.jpg": "/per-portfolio/static/media/skill.9bb32ffb76352eff3f87.jpg",
+    "index.html": "/per-portfolio/index.html",
+    "main.05031472.css.map": "/per-portfolio/static/css/main.05031472.css.map",
+    "main.9af8bc23.js.map": "/per-portfolio/static/js/main.9af8bc23.js.map",
+    "453.41811d64.chunk.js.map": "/per-portfolio/static/js/453.41811d64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.05031472.css",
+    "static/js/main.9af8bc23.js"
+  ]
+}
